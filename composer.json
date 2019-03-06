@@ -1,0 +1,20 @@
+{
+    "name": "gleydsonmira/curso-composer-son",
+    "description": "Pacote exemplo para o curso de composer da son",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gleydson Miranda Souza",
+            "email": "gleydson.m.s.1993@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GleydsonMira\\CursoSON\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
